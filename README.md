@@ -1,4 +1,4 @@
-# swift-practice
+# ios-practice
 
 1. Apple Developer SwiftUI Tutorials (https://developer.apple.com/tutorials/swiftui)
 2. 설정 앱 clone
