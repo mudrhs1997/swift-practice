@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChatApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nVE-Zq-Q4O">
+                                <rect key="frame" x="0.0" y="44" width="414" height="775"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UZk-v1-3hz">
+                                <rect key="frame" x="0.0" y="819" width="414" height="43"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="er1-25-uzI">
+                                        <rect key="frame" x="4" y="4" width="357" height="35"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="jsg-22-Bat"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UK-Zg-HhF">
+                                        <rect key="frame" x="365" y="0.0" width="49" height="43"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="전송"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="4UK-Zg-HhF" firstAttribute="leading" secondItem="er1-25-uzI" secondAttribute="trailing" constant="4" id="4R4-Hn-U2E"/>
+                                    <constraint firstItem="4UK-Zg-HhF" firstAttribute="top" secondItem="UZk-v1-3hz" secondAttribute="top" id="UtL-hY-Q6a"/>
+                                    <constraint firstItem="er1-25-uzI" firstAttribute="top" secondItem="UZk-v1-3hz" secondAttribute="top" constant="4" id="eII-nt-OsK"/>
+                                    <constraint firstAttribute="trailing" secondItem="4UK-Zg-HhF" secondAttribute="trailing" id="elm-bq-eJA"/>
+                                    <constraint firstAttribute="bottom" secondItem="er1-25-uzI" secondAttribute="bottom" constant="4" id="qZ9-U9-6Vw"/>
+                                    <constraint firstAttribute="bottom" secondItem="4UK-Zg-HhF" secondAttribute="bottom" id="qou-BJ-BVD"/>
+                                    <constraint firstItem="er1-25-uzI" firstAttribute="leading" secondItem="UZk-v1-3hz" secondAttribute="leading" constant="4" id="u7c-OG-E1q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nVE-Zq-Q4O" secondAttribute="trailing" id="AE4-bK-nO9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UZk-v1-3hz" secondAttribute="bottom" id="Clz-fB-2UU"/>
+                            <constraint firstItem="UZk-v1-3hz" firstAttribute="top" secondItem="nVE-Zq-Q4O" secondAttribute="bottom" id="LZX-CJ-lO7"/>
+                            <constraint firstItem="UZk-v1-3hz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MIa-ZB-whq"/>
+                            <constraint firstItem="nVE-Zq-Q4O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pfh-7s-yb6"/>
+                            <constraint firstItem="nVE-Zq-Q4O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jUQ-fX-N0L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UZk-v1-3hz" secondAttribute="trailing" id="q2s-U6-NOw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
