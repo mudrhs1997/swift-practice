@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1BFD84427E38C4200E2705D /* YourCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BFD84227E38C4200E2705D /* YourCellTableViewCell.swift */; };
+		C1BFD84527E38C4200E2705D /* YourCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1BFD84327E38C4200E2705D /* YourCellTableViewCell.xib */; };
 		C1EF13DE27E19471005A6C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF13DD27E19471005A6C9C /* AppDelegate.swift */; };
 		C1EF13E027E19471005A6C9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF13DF27E19471005A6C9C /* SceneDelegate.swift */; };
 		C1EF13E227E19471005A6C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF13E127E19471005A6C9C /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1BFD84227E38C4200E2705D /* YourCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCellTableViewCell.swift; sourceTree = "<group>"; };
+		C1BFD84327E38C4200E2705D /* YourCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourCellTableViewCell.xib; sourceTree = "<group>"; };
 		C1EF13DA27E19471005A6C9C /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EF13DD27E19471005A6C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1EF13DF27E19471005A6C9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				C1EF13EB27E19474005A6C9C /* Info.plist */,
 				C1EF13F127E2E353005A6C9C /* MyCellTableViewCell.swift */,
 				C1EF13F227E2E353005A6C9C /* MyCellTableViewCell.xib */,
+				C1BFD84227E38C4200E2705D /* YourCellTableViewCell.swift */,
+				C1BFD84327E38C4200E2705D /* YourCellTableViewCell.xib */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BFD84527E38C4200E2705D /* YourCellTableViewCell.xib in Resources */,
 				C1EF13EA27E19474005A6C9C /* LaunchScreen.storyboard in Resources */,
 				C1EF13F427E2E353005A6C9C /* MyCellTableViewCell.xib in Resources */,
 				C1EF13E727E19474005A6C9C /* Assets.xcassets in Resources */,
@@ -145,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BFD84427E38C4200E2705D /* YourCellTableViewCell.swift in Sources */,
 				C1EF13E227E19471005A6C9C /* ViewController.swift in Sources */,
 				C1EF13F327E2E353005A6C9C /* MyCellTableViewCell.swift in Sources */,
 				C1EF13DE27E19471005A6C9C /* AppDelegate.swift in Sources */,
