@@ -9,6 +9,7 @@ import UIKit
 
 
 //  NSLayoutConstraint 자체를 새로 만들어서 적용한다. multiplier 이외의 값은 그냥 가져온다.
+
 extension NSLayoutConstraint {
     func changeMultiplier(value: CGFloat) -> NSLayoutConstraint{
         
@@ -40,7 +41,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+//        graph1Height.changeMultiplier(value: 0.5)
         
     }
     @IBAction func style1(_ sender: Any) {
